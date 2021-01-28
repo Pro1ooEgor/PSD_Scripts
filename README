@@ -1,0 +1,30 @@
+# Photoshop Manipulation tools
+
+collection of PSD scripts in .jsx
+
+*layer_upOneLayerAndActivate.jsx
+*layer_downOneLayerAndActivate.jsx
+	Workflow scripts - assign to hotkey for fast manipulations of layers.
+
+*incrementalsave.jsx
+	Saves a new png of current open document in psd in incremental order.
+	
+*getSolidFillColor.jsx
+	Get all layers in PSD doc of type SOLIDFILL and return color.
+	
+*saveIcon.jsx
+	Saves image icons in png format. 
+	Pixel dimensions defined in the beginning of script.
+	Saves in the same folder as document is saved.
+
+*documentSetup.jsx
+	Change document mode to RGB if CMYK or other.
+	Sets dpi to 300 without resample
+	Changes color profile	
+
+*guides_from_rows_and_columns.jsx
+	Adds guides to a doc based on rows and columns division
+	Adds pixels in width and height if needed for prefect sized grid
+
+*distributeSelectionIslandsToLayers.jsx
+	distributes a single layers ctrl-clicked selection and its selectionsislands to separate layers.
